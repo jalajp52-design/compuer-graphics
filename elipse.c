@@ -57,7 +57,7 @@ void main() {
     int gd = DETECT, gm;
     int x_cen, y_cen, rx, ry;
 
-    initgraph(&gd, &gm, "C:\\TurboC3\\BGI");
+    initgraph(&gd, &gm, "C:\\TG\\BGI");
 
     printf("Enter x center: ");
     scanf("%d", &x_cen);
@@ -73,3 +73,4 @@ void main() {
     getch();
     closegraph();
 }
+
